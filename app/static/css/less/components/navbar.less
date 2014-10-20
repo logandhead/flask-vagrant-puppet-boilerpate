@@ -1,0 +1,32 @@
+@import  "../var.less";
+.nav {
+  background: @primary-color;
+  height: 50px;
+  position: relative;
+  width: 100%;
+  display: block;
+  .nav-wrapper {
+    padding: 5px 10px;
+    display: table;
+    height: inherit;
+    box-sizing: border-box;
+    .logo {
+      font-size: 30px;
+      line-height: 30px;
+      vertical-align: middle;
+      display: table-cell;
+
+      a {
+
+        color: white;
+      }
+    }
+    .nav-left {
+      .ul {
+        li {
+          float: left;
+        }
+      }
+    }
+  }
+}
